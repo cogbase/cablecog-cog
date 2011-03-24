@@ -1,0 +1,19 @@
+# The type of this app. app_class is required.
+app_class: App::SpiderCog
+content_root: ..
+
+# Server Options
+server_port: 1234
+
+# Site Options
+site_name: Spider Cog
+
+cache_urls:
+- '^/cable/'
+- '^/cables'
+
+proxymap:
+- prefix: /cables
+  remote: http://www.guardian.co.uk/world/series/us-embassy-cables-the-documents
+- prefix: /cable
+  remote: http://www.guardian.co.uk/world/us-embassy-cables-documents
