@@ -1,0 +1,8 @@
+# The type of this app. app_class is required.
+app_class: App::CableCog
+
+# Server Options
+server_port: 5555
+
+# Site Options
+site_name: Cable Cog
