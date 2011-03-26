@@ -1,0 +1,7 @@
+Type: cable
+Isa: CogNode
+Fields:
+- name: publish_date
+- name: cable_title
+- name: cable_sent
+- name: cable_number
